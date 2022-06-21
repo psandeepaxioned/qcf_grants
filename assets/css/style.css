@@ -121,14 +121,14 @@ header .wrapper{
   padding: 5px 0;
   background-color: #a8ad01;
 }
-.navbar ul{padding-left: 3%;}
+.navbar ul{ padding-left: 3%; }
 
 .navbar {
   -ms-flex-preferred-size: 55%;
-      flex-basis: 55%;
+      flex-basis: 52%;
   padding: 3%;
 }
-.navbar li {padding: 0 2%;}
+.navbar li { padding: 0 2%; }
 
 nav a {
   text-transform: uppercase;
@@ -136,29 +136,27 @@ nav a {
 }
 
 a:hover{color: #750e2b;}
+.donate { padding: 2% 0 2% 3%; }
 
-.donate {
-  padding: 2%;
-  padding-left: 3%;
-}
 .donate a{
   text-transform: uppercase;
   font-weight: bold;
-  padding: 13px 35px;
+  padding: 13px;
   border: 1px solid;
-  background-color: white;
+  background-color: #fcfcf9;
   color: #750e2b;
   border-radius: 13px;
 }
+
 .donate a::before {
-  padding: 4px;
   border-radius: 50%;
   content: '\f004'; 
   font-family: 'Font Awesome 5 Free';
-  font-size: 20px;
+  font-size: 17px;
   float: right;
 }
-.donate a:hover{color: greenyellow;}
+
+.donate a:hover{ color: #9ACD32; }
  /*=================================
   Header styling ends here
 =================================*/  
@@ -167,15 +165,17 @@ a:hover{color: #750e2b;}
   main styling starts here
 =================================*/
 /* banner */
-.banner{position: relative;}
+.banner{ position: relative; }
+
 .banner h2 {
-  color: #ffffff;
+  color: #fff;
   font-size: 40px;
   position: absolute;
   top: 71%;
   left: 11%;
 }
 /* banner ended*/
+
 /* grant_program section started*/
 .grant_program h3 {
   text-transform: uppercase;
@@ -188,19 +188,20 @@ a:hover{color: #750e2b;}
 .grant_program p  {
   font-size: 14px;
   text-align: center;
-  padding-top: 20px;
-  padding-left: 12%;
-  padding-right: 6%;
+  padding: 20px 6% 20px 12%;
 }
 /* grant_program ended*/
+
 /* menubar started*/
 .menubar a {
-  color: black;
+  color: #000000;
   text-transform: uppercase;
   font-size: 15px;
 }
-.menubar a:hover{color: #750e2b;}
-.grant_program .wrapper{padding: 5% 0;}
+.menubar a:hover{ color: #750e2b; }
+
+.grant_program .wrapper{ padding: 5% 0; }
+
 .menubar li {
   -ms-flex-preferred-size: 14%;
       flex-basis: 14%;
@@ -223,16 +224,20 @@ a:hover{color: #750e2b;}
   font-size: 15px;
   font-weight: bolder;
   background: #da8c12;
-  color: white;
+  color: #fff;
 }
-.menubar li:last-child {padding: 1%;}
-.menubar li:last-child a:hover{color: #750e2b;}
+.menubar li:last-child { padding: 1%; }
+
+.menubar li:last-child a:hover{ color: #750e2b; }
+
 /* menubar ended*/
+
 /* objective started*/
-.objective .wrapper {padding: 35px 0;}
+.objective .wrapper { padding: 35px 0; }
+
 /* common-css for all .section-top in all sections*/
-.section-top {text-align: center;}
-.section-top p {padding-top: 25px;}
+.section-top { text-align: center; }
+.section-top p { padding-top: 25px; }
 
 .section-top h4 {
   font-size: 32px;
@@ -253,10 +258,10 @@ ul.objective-sections {
 .objective-sections li {
   -ms-flex-preferred-size: 22%;
       flex-basis: 22%;
-  border: 1px solid green;
+  border: 1px solid #0f0;
   text-align: center;
   padding: 4.5% 2%;
-  color: white;
+  color: #fff;
   background-color: #a8ad01;
 }
 
@@ -274,12 +279,12 @@ ul.objective-sections {
   line-height: 22px;
 }
 /* objective ended*/
+
 /* priority_area started*/
-.priority_areas .wrapper {padding: 35px 0;}
-.priority_areas ul {
-  padding: 30px 0;
-  padding-left: 15%;
-}
+.priority_areas .wrapper { padding: 35px 0; }
+
+.priority_areas ul { padding: 30px 0 30px 15%; }
+
 .headings span {
   font-weight: bold;
   font-size: 14px;
@@ -295,6 +300,7 @@ ul.objective-sections {
   padding-bottom: 2%;
 }
 /* priority_area ended*/
+
 /* available_grant started*/
 section.available_grants ul {
   display: -webkit-box;
@@ -305,10 +311,8 @@ section.available_grants ul {
           justify-content: space-between;
   padding: 35px 9%;
 }
-.available_grants .wrapper {
-  padding-top: 35px;
-  padding-bottom: 70px;
-}
+.available_grants .wrapper { padding-top: 35px 0 70px 0; }
+
 section.available_grants li {
   -ms-flex-preferred-size: 30%;
       flex-basis: 30%;
@@ -320,9 +324,12 @@ section.available_grants li h5 {
   padding: 5% 0;
   background-color: #e7f2d7
 }
-.available_grants .para_1 {padding: 12%;}
-.available_grants .para_2 {padding: 7% 0%;}
-.available_grants .para_3 {padding: 18% 5%;}
+.available_grants .para_1 { padding: 12%; }
+
+.available_grants .para_2 { padding: 7% 0%; }
+
+.available_grants .para_3 { padding: 18% 5%; }
+
 .available_grants a {
   border: 1px solid;
   border-radius: 10px;
@@ -330,20 +337,23 @@ section.available_grants li h5 {
   font-size: 15px;
   font-weight: bolder;
   background: #da8c12;
-  color: white;
+  color: #fff;
 }
-.available_grants a:hover {color: #750e2b;}
-.available_grants .section-top p {padding-bottom: 1%;}
-.available_grants li p {background-color: #f9fcf5;}
+.available_grants a:hover { color: #750e2b; }
+
+.available_grants .section-top p { padding-bottom: 1%; }
+
+.available_grants li p { background-color: #f9fcf5; }
+
 /* available_grants ended*/
+
 /* eligibility started*/
 .eligibility .wrapper {
   padding-top: 35px;
   position: relative;
 }
 .eligibility .para_1 {
-  padding: 0 6%;
-  padding-top: 25px;
+  padding: 25px 6% 0 6%;
   font-size: 14px;
   line-height: 22px;
 }
@@ -366,16 +376,16 @@ section.available_grants li h5 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 8%;
-  padding-left: 15%;
+  padding: 8% 0 0 15%;
 }
-.download_forms li{padding: 10% 0;}
+.download_forms li{ padding: 10% 0; }
+
 .download_forms a {
   text-transform: capitalize;
   font-weight: bold;
   font-size: 17px;
   padding: 3% 0;
-  color: black;
+  color: #000;
 }
 
 .download_forms {
@@ -387,11 +397,10 @@ section.available_grants li h5 {
           transform: translateX(-50%);
   border: 4px dashed #a4a82f;
   background-color: #ffffff;
-  padding: 3.5% 0;
-  padding-left: 4%;
-  padding-right: 7%;
+  padding: 3.5% 7% 3.5% 4%;
 }
-.download_forms a:hover{color: #750e2b;}
+.download_forms a:hover{ color: #750e2b; }
+
 /* download-form ended*/
 /*=================================
   main styling ends here
@@ -400,7 +409,7 @@ section.available_grants li h5 {
 /*=================================
   footer styling starts here
 =================================*/ 
-footer {padding-bottom: 70px;}
+footer { padding-bottom: 70px; }
 footer .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
